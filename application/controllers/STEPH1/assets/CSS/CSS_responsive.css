@@ -1,0 +1,162 @@
+FONT {
+	font-family: 'Coiny', cursive;
+	  color:#000000; 
+ 	 animation: colorblink 3s infinite;
+}
+
+form	{
+ 	width: 70%;
+	height: auto;
+ 	padding: 1% 1% 1% 1%;
+ 	margin-right: auto;
+	margin-left: auto;
+
+ }
+ 
+#center { 
+  white-space: pre;
+  line-height:3px;  
+}
+
+figcaption	{
+ text-shadow: grey 2px 5px;
+ font-family: 'Coiny', cursive;
+ }
+ 
+ .test {
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	margin-right: auto;
+	margin-left: auto; 
+  	padding: 3px;
+  	border-radius: 25px;
+  	text-align: center;
+}
+
+label
+
+{
+    display: block; /* La balise devient de type block. */
+}
+
+nav {
+	 	 clear: both;
+	 	 position: relative;
+	 	 bottom: 1%;
+	 	 background-color: black;
+	 	 text-align: left;
+	 	 padding-top: 1%;
+	 	 padding-bottom: 1%;
+	 	 margin-top: 1%;
+}
+
+a {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+a:visited {
+  color: #800080;
+}
+
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: white;
+  background: #008000;
+}
+
+@keyframes colorblink { 
+		0% { }
+		50% { color:green; } 
+}	
+
+.centre	{
+		position : relative;
+		margin: 1em 10%;
+		right: 1%;
+		width: 50%;
+		float: left;
+}
+
+table {
+		width: 100%; 
+  		border-collapse: collapse;
+}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+th { 
+  background: #333; 
+  color: white; 
+  font-weight: bold; 
+}
+td, th { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}
+		
+.droite {
+		position: relative;
+		top: 1%;
+		right: 1%;
+		width: 30%;
+		float: right;
+}
+
+ul	{
+		list-style-type: none;
+ 		 margin: 0;
+  		padding: 0;
+}
+		
+li { 
+		display : inline;
+		padding : 0 0.5em;
+ /* Pour espacer les boutons entre eux */
+}
+
+#img 
+	{
+		 width: 20%; 	
+		 height: auto;
+	}
+#img_promo
+	{
+		 width: 100%; 	
+		 height: auto;
+		 border-radius:1%;
+	}
+
+@media only screen and (max-width: 767px) {
+	html{
+	font-size:75%
+}
+	
+	{
+     	max-width: 100%;
+     	height: auto;
+	}
+fieldset { 
+  white-space: pre;
+  line-height:6px;  
+}
+
+#fieldset { 
+  text-align: center;
+}
+
+#legend { 
+  text-align: center;
+}	
+
+#center { 
+  text-align: center;
+}
+	
+.droite {
+		visibility: hidden;
+}
+}
+

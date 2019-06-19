@@ -1,0 +1,69 @@
+body {
+color:black;
+background-color:#FBF2EF;
+background-image:url("assets/img/parc.png");
+background-repeat:no-repeat;
+background-size: cover;
+}
+aside {
+	 height: auto;
+	text_align:center;
+}
+.butn {
+  background: #8f6757;
+  background-image: -webkit-linear-gradient(top, #8f6757, #dbc363);
+  background-image: -moz-linear-gradient(top, #8f6757, #dbc363);
+  background-image: -ms-linear-gradient(top, #8f6757, #dbc363);
+  background-image: -o-linear-gradient(top, #8f6757, #dbc363);
+  background-image: linear-gradient(to bottom, #8f6757, #dbc363);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  text-shadow: 3px 1px 6px #c7ae20;
+  font-family: Georgia;
+  color: #f0ebf5;
+  font-size: 60px;
+  padding: 30px 20px 30px 20px;
+  border: solid #8c661f 2px;
+  text-decoration: none;
+}
+.photo {
+	width : 80px;
+	heigth : 80px;
+	object-fit : contain;
+}
+.butn:hover {
+  background: #fca93c;
+  background-image: -webkit-linear-gradient(top, #fca93c, #d93434);
+  background-image: -moz-linear-gradient(top, #fca93c, #d93434);
+  background-image: -ms-linear-gradient(top, #fca93c, #d93434);
+  background-image: -o-linear-gradient(top, #fca93c, #d93434);
+  background-image: linear-gradient(to bottom, #fca93c, #d93434);
+  text-decoration: none;
+}
+#iframe {
+    width: 100%; 	
+	height: 100%;
+	position: relative;
+}
+#img 	{
+		 width: 30%; 	
+		 height: auto;
+}
+#img_promo
+	{
+		 width: 100%; 	
+		 height: auto;
+		 border-radius:1%;
+	}
+
+}		 
+figcaption	{
+ text-shadow: grey 2px 5px;
+ font-family: 'Coiny', cursive;
+ }
+@media only screen and (max-width: 992px) {
+	html{
+	font-size:75%;
+	text-align: center;
+}

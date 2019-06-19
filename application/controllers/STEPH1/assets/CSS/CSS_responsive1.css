@@ -1,0 +1,40 @@
+body {
+color:black;
+background-color:white;
+background-image:url("../IMG/parc.png");
+background-repeat:no-repeat;
+background-size: cover;
+}
+#iframe {
+    width: 100%; 	
+	height: 100%;
+	position: relative;
+}
+#img 	{
+		 width: 30%; 	
+		 height: auto;
+}
+#img_promo	{
+		 width: 20%; 	
+		 height: auto;
+		 float: left;
+}		 
+figcaption	{
+ text-shadow: grey 2px 5px;
+ font-family: 'Coiny', cursive;
+ }
+@media only screen and (max-width: 992px) {
+	html{
+	font-size:75%;
+	text-align: center;
+}
+ /*input {
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	margin-right: auto;
+	margin-left: auto; 
+  	padding: 3px;
+  	border-radius: 25px;
+  	text-align: center;
+}
+*/

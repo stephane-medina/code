@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Page d'accueil  du site Jarditou| HTML 5</title>
+</head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link href="assets/CSS/CSS_responsive.css" rel="stylesheet" media="all" type="text/css">
+<body style="background-image:linear-gradient(to bottom,yellow,green,rgba(0,0,0,0),rgba(0,0,0,1))">
+<header>
+<figure>
+<marquee direction="right" scrollamount="6">
+<p><img src="assets/IMG/jarditou_logo.png" alt="jarditou_logo" id="img">
+</marquee>
+<figcaption>La qualité depuis 70 ans</figcaption>
+</figure>
+</header>
+<nav class="menu">
+<ul id="menu_horizontal">
+  <li><a href="index.html">Accueil</a></li>
+  <li><a href="tableau.html">Tableau</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+<p><img src="assets/IMG/promotion.jpg" alt="promotions" id="img_promo">
+	<center>
+		<p>
+			<b><FONT size="6" >Nous lançons une grande enquête sur les
+				anciens stagiaires</FONT>
+			<br><br>
+			<b><FONT>merci de nous répondre</FONT></b>
+		</p>
+	</center>
+	<form action="http://bienvu.net/script.php" method="get">
+		<fieldset>
+			<legend id="legend">Vos coordonnées</legend>
+			<div id="center">
+			<label for="nom">votre nom</label>
+			<input class="test" type="text" name="nom" id="nom" autofocus>
+			<label for="prénom">votre prénom</label>
+			<input class="test" type="text" name="prenom" id="prenom" autofocus>
+			<label for="date de naissance">votre date de naissance</label>
+			<input class="test" type="text" name="date de naissance" id="date de naissance" autofocus>
+			<label for="adresse">votre adresse</label>
+			<input class="test" type="text" name="adresse" id="adresse" autofocus>
+			<label for="ville">votre ville</label>
+			<input class="test" type="text" name="ville" id="ville" autofocus>
+			<label for="code postal">votre code postal</label>
+			<input class="test" type="text" name="code postal" id="code postal" autofocus>
+			<label for="e-mail">votre e-mail</label>
+			<input class="test" type="text" name="e-mail" id="e-mail" autofocus>
+			</div>
+		</fieldset>
+		<br>
+		<fieldset id="fieldset" class="test">
+			vous êtes un homme<input type="radio" name="sexe" value="vous êtes un homme"> 
+			vous êtes une femme<input type="radio" name="sexe" value="vous êtes une femme">
+		</fieldset>
+		<br>
+		<select name="métier">
+			<option value="développeur">développeur
+			<option value="autre">autre
+			</option>
+		</select>
+		<br>
+		si vous avez répondu autre, précisez <input type="text">
+		<br>
+		<select name="fric">
+			<option value="1000€">1000€
+			<option value="2000€">2000€
+			</option>
+		</select>
+		<br>
+		en quelle année avez-vous suivi le stage afpa ? <input type="text">
+		<br><br>
+		<textarea name="commentaire" rows="5"cols="30">vos commentaires</textarea>
+		<br>
+		<p>
+			<b><FONT size="5">merci d'avoir répondu au questionnaire</FONT></b><br>
+		</p>
+		<input type="submit" value="validez">
+		<input type="reset" value="annulez">
+	</form>
+<hr>
+<footer>
+<nav class="menu">
+<ul id="menu_horizontal">
+  <li><a href="">Mentions légales</a></li>
+  <li><a href="">Horaires</a></li>
+  <li><a href="">Plan du site</a></li>
+</ul>
+</nav>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

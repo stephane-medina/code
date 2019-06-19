@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Tableaux | HTML 5</title>
+<body>
+	<center>
+		<p>
+			<b><FONT size="6" >Nous lançons une grande enquête sur les
+				anciens stagiaires</FONT>
+			<br><br>
+			<b>merci de nous répondre</b>
+		</p>
+	</center>
+<style type="text/css">
+.test {
+  display: block;
+  width:222px;
+  float: inline-end;
+  margin-right:60%;
+  border-radius:30%;
+}
+</style>
+	<form action="http://bienvu.net/script.php" method="get">
+		<fieldset>
+			<legend>Vos coordonnées</legend>
+			<p><label for="nom">votre nom</label>
+			<input class="test" type="text" name="nom" id="nom"autofocus placeholder="Entrer Nom"></p>
+			<p><label for="prénom">votre prénom</label>
+			<input class="test" type="text" name="prenom" id="prenom" autofocus placeholder="Entrer prénom"></p>
+			<p><label for="date de naissance">votre date de naissance</label>
+			<input class="test" type="text" name="date de naissance" id="date de naissance" autofocus placeholder="Entrer Date de naissance"></p>
+			<p><label for="adresse">votre adresse</label>
+			<input class="test" type="text" name="adresse" id="adresse" autofocus placeholder="Entrer Adresse"></p>
+			<p><label for="ville">votre ville</label>
+			<input class="test" type="text" name="ville" id="ville" autofocus placeholder="Entrer Ville"></p>
+			<p><label for="code postal">votre code postal</label>
+			<input class="test" type="text" name="code postal" id="code postal"autofocus placeholder="Entrer Code postal"></p>
+			<p><label for="e-mail">votre e-mail</label>
+			<input class="test" type="text" name="e-mail" id="e-mail" autofocus placeholder="Entrer E-mail"></p>
+		</fieldset>
+		<br>
+		<fieldset>
+			vous êtes un homme<input 
+				type="radio" name="sexe" value="vous êtes un homme"> 
+			vous êtes une femme<input
+				type="radio" name="sexe" value="vous êtes une femme">
+		</fieldset>
+		<br>
+		<select name="métier">
+			<option value="développeur">développeur
+			<option value="autre">autre
+			</option>
+		</select>
+		<br>
+		si vous avez répondu autre, précisez <input type="text">
+		<br>
+		<select name="fric">
+			<option value="1000€">1000€
+			<option value="2000€">2000€
+			</option>
+		</select>
+		<br>
+		en quelle année avez-vous suivi le stage afpa ? <input type="text">
+		<br><br>
+		<textarea name="commentaire" rows="5"cols="30">vos commentaires</textarea>
+		<br>
+		<p>
+			<b><FONT size="5">merci d'avoir répondu au questionnaire</FONT></b><br>
+		</p>
+		<input type="submit" value="validez">
+		<input type="reset" value="annulez">
+	</form>
+</body>
+</html>
+
